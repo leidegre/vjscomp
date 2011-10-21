@@ -1,6 +1,6 @@
 @echo off
 
-set jdk=\Program Files\Java\jdk1.7.0_01\bin
+set jdk=\Program Files\Java\jdk1.6.0_27\bin
 
 set javac="%jdk%\javac.exe"
 set jar="%jdk%\jar.exe"
