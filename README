@@ -1,0 +1,25 @@
+vjscomp is wrapper around the Google Closure Compiler
+
+vjscomp rewrites warnings and error messages from the compiler
+into a format that's understood by Visual Studio
+
+See http://msdn.microsoft.com/en-us/library/yxkt8b26.aspx for details about this format
+
+vjscomp forwards the command line to the default command line runner
+and does not modify the compiler in any other way
+
+For your convenience the wrapper has been pre-packaged in vjscomp.jar
+
+You still need to obtain Google Closure Compiler archive and put that in 
+the same directory as vjscomp but other than that you invoke vjscomp exactly
+as you would invoke the Google Closure Compiler from the command line
+
+i.e.
+
+    java -jar vjscomp.jar --js input.js
+
+You don't have to specify `compiler.jar` as it's already in the manifest classpath
+and will get picked up automatically
+
+If you encouter any problems, make sure the `compiler.jar` and `vjscomp.jar` 
+exists in the same directory

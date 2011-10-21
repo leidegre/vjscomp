@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: compiler.jar
+Created-By: John Leidegren
+Main-Class: vsjcomp
